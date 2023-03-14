@@ -1,0 +1,49 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0;
+
+}
+
+.header {
+    width: 100%;
+    height: 69px;
+    display: block;
+    background-color: black;
+    position: fixed;
+    border-bottom: 1px solid seashell;
+    top: 0px;
+}
+
+.logo {
+    height: 50px;
+    float: left;
+    padding-left: 10px;
+}
+
+.navigation {
+    text-decoration: underline;
+    float: right;
+    height: 100%;
+    margin: 0 auto;
+    color: seashell;
+}
+
+.navigation a {
+    display: table;
+    height: 100%;
+    float: left;
+    padding: 0px 20px;
+}
+
+.navigation a li {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    text-decoration: underline;
+    color: white
+}
